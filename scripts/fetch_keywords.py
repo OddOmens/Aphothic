@@ -10,6 +10,7 @@ import requests
 from datetime import datetime
 import jwt
 import time
+import uuid
 
 # Categories to fetch keywords for
 CATEGORIES = [
@@ -81,21 +82,64 @@ def fetch_keyword_recommendations(category, limit=100):
     """Fetch keyword recommendations from Apple Search Ads API"""
     token = generate_jwt_token()
     
+    # Your Apple Search Ads IDs
+    org_id = "8110060"
+    campaign_id = "2142875682"
+    adgroup_id = "2144163600"
+    
     headers = {
         'Authorization': f'Bearer {token}',
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
+        'X-AP-Context': f'orgId={org_id}'
     }
     
-    # For now, generate sample data based on category
-    # TODO: Replace with actual API calls once you have campaigns set up
-    print(f"  Generating sample data for {category}...")
+    # Apple Search Ads API endpoint for keyword recommendations
+    url = f"{API_BASE_URL}/campaigns/{campaign_id}/adgroups/{adgroup_id}/targetingkeywords/find"
     
-    # Generate realistic sample keywords for each category
-    sample_keywords = generate_sample_keywords(category)
+    print(f"  Fetching real data from Apple Search Ads for {category}...")
     
-    return {
-        'data': sample_keywords
+    # Request body for keyword search
+    body = {
+        "pagination": {
+            "offset": 0,
+            "limit": limit
+        },
+        "selector": {
+            "orderBy": [
+                {
+                    "field": "relevance",
+                    "sortOrder": "DESCENDING"
+                }
+            ],
+            "conditions": [
+                {
+                    "field": "keywordText",
+                    "operator": "CONTAINS_ANY",
+                    "values": [category.replace('-', ' ')]
+                }
+            ]
+        }
     }
+    
+    try:
+        response = requests.post(url, headers=headers, json=body, timeout=30)
+        
+        if response.status_code == 200:
+            data = response.json()
+            if data.get('data'):
+                print(f"    ✓ Found {len(data['data'])} keywords from Apple Search Ads")
+                return data
+            else:
+                print(f"    ⚠ No keywords found, using sample data")
+                return {'data': generate_sample_keywords(category)}
+        else:
+            print(f"    ⚠ API returned {response.status_code}, using sample data")
+            print(f"    Response: {response.text[:200]}")
+            return {'data': generate_sample_keywords(category)}
+            
+    except Exception as e:
+        print(f"    ⚠ Error: {e}, using sample data")
+        return {'data': generate_sample_keywords(category)}
 
 def generate_sample_keywords(category):
     """Generate sample keyword data until real API integration is complete"""
