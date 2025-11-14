@@ -30,8 +30,13 @@ jobs:
           APPLE_SEARCH_ADS_TEAM_ID: ${{ secrets.APPLE_SEARCH_ADS_TEAM_ID }}
           APPLE_SEARCH_ADS_KEY_ID: ${{ secrets.APPLE_SEARCH_ADS_KEY_ID }}
           APPLE_SEARCH_ADS_PRIVATE_KEY: ${{ secrets.APPLE_SEARCH_ADS_PRIVATE_KEY }}
+          PYTHONUNBUFFERED: 1
         run: |
-          python scripts/fetch_keywords.py
+          python -u scripts/fetch_keywords.py
+          echo "Script completed"
+          ls -la
+          ls -la categories/ || echo "No categories folder"
+          ls -la trending/ || echo "No trending folder"
       
       - name: Commit and push changes
         run: |
