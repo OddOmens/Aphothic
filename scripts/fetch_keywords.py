@@ -83,46 +83,56 @@ def fetch_keyword_recommendations(category, limit=100):
     
     headers = {
         'Authorization': f'Bearer {token}',
-        'Content-Type': 'application/json',
-        'X-AP-Context': 'orgId=YOUR_ORG_ID'  # You'll need to get this from your account
+        'Content-Type': 'application/json'
     }
     
-    # Apple Search Ads API endpoint for keyword recommendations
-    # Note: You may need to adjust this based on your campaign structure
-    url = f"{API_BASE_URL}/campaigns/YOUR_CAMPAIGN_ID/adgroups/YOUR_ADGROUP_ID/targetingkeywords/find"
+    # For now, generate sample data based on category
+    # TODO: Replace with actual API calls once you have campaigns set up
+    print(f"  Generating sample data for {category}...")
     
-    # Request body for keyword search
-    body = {
-        "pagination": {
-            "offset": 0,
-            "limit": limit
-        },
-        "selector": {
-            "orderBy": [
-                {
-                    "field": "relevance",
-                    "sortOrder": "DESCENDING"
-                }
-            ],
-            "conditions": [
-                {
-                    "field": "keywordText",
-                    "operator": "CONTAINS",
-                    "values": [category]
-                }
-            ]
-        }
+    # Generate realistic sample keywords for each category
+    sample_keywords = generate_sample_keywords(category)
+    
+    return {
+        'data': sample_keywords
+    }
+
+def generate_sample_keywords(category):
+    """Generate sample keyword data until real API integration is complete"""
+    import uuid
+    
+    # Sample keywords by category
+    category_keywords = {
+        'games': ['puzzle game', 'action game', 'strategy game', 'casual game', 'multiplayer game'],
+        'business': ['project management', 'team collaboration', 'business analytics', 'crm software', 'invoice app'],
+        'productivity': ['task manager', 'todo list', 'note taking', 'calendar app', 'time tracker'],
+        'education': ['learning app', 'study tools', 'language learning', 'math tutor', 'flashcards'],
+        'entertainment': ['streaming app', 'video player', 'music app', 'podcast player', 'radio app'],
+        'finance': ['budget tracker', 'expense manager', 'investment app', 'banking app', 'crypto wallet'],
+        'health-fitness': ['fitness tracker', 'workout app', 'calorie counter', 'meditation app', 'sleep tracker'],
+        'lifestyle': ['recipe app', 'home design', 'fashion app', 'travel planner', 'dating app'],
+        'social-networking': ['messaging app', 'social media', 'video chat', 'community app', 'forum app'],
+        'utilities': ['file manager', 'calculator', 'scanner app', 'weather app', 'vpn app']
     }
     
-    try:
-        response = requests.post(url, headers=headers, json=body)
-        response.raise_for_status()
-        return response.json()
-    except requests.exceptions.RequestException as e:
-        print(f"Error fetching keywords for {category}: {e}")
-        if hasattr(e.response, 'text'):
-            print(f"Response: {e.response.text}")
-        return None
+    keywords = category_keywords.get(category, ['app', 'mobile app', 'ios app'])
+    
+    sample_data = []
+    for i, keyword in enumerate(keywords):
+        sample_data.append({
+            'id': str(uuid.uuid4()),
+            'keyword': keyword,
+            'searchPopularity': 90 - (i * 5),  # Decreasing popularity
+            'bidStrength': ['VERY_HIGH', 'HIGH', 'MEDIUM', 'LOW'][min(i, 3)],
+            'suggestedBidAmount': {
+                'min': 0.5 + (i * 0.1),
+                'max': 2.0 + (i * 0.5),
+                'currency': 'USD'
+            },
+            'category': category.replace('-', ' ').title()
+        })
+    
+    return sample_data
 
 def process_keywords(raw_data):
     """Process raw API data into our format"""
@@ -230,3 +240,24 @@ def main():
     
     print()
     
+    # Save trending keywords
+    if all_keywords:
+        save_trending_keywords(all_keywords)
+    
+    # Save metadata
+    save_metadata()
+    
+    print()
+    print(f"✅ Complete! Processed {len(all_keywords)} total keywords")
+
+if __name__ == '__main__':
+    import sys
+    sys.stdout.flush()
+    try:
+        main()
+        sys.stdout.flush()
+    except Exception as e:
+        print(f"❌ Error: {e}", file=sys.stderr)
+        import traceback
+        traceback.print_exc()
+        sys.exit(1)
