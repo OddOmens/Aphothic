@@ -1,0 +1,656 @@
+{
+  "keywords": [
+    {
+      "id": "5623b20c-568b-4b28-949c-e3fa8df3a4f0",
+      "keyword": "puzzle game",
+      "searchPopularity": 90,
+      "competitionLevel": "very_high",
+      "suggestedBidRange": {
+        "min": 0.5,
+        "max": 2.0,
+        "currency": "USD"
+      },
+      "category": "Games",
+      "lastUpdated": "2025-11-14T19:32:23.356214Z"
+    },
+    {
+      "id": "ad53c6b6-d934-4745-9718-9b4e5e46432d",
+      "keyword": "project management",
+      "searchPopularity": 90,
+      "competitionLevel": "very_high",
+      "suggestedBidRange": {
+        "min": 0.5,
+        "max": 2.0,
+        "currency": "USD"
+      },
+      "category": "Business",
+      "lastUpdated": "2025-11-14T19:32:25.357223Z"
+    },
+    {
+      "id": "8cbf25ed-e2f5-42a2-982e-df1f956c2278",
+      "keyword": "task manager",
+      "searchPopularity": 90,
+      "competitionLevel": "very_high",
+      "suggestedBidRange": {
+        "min": 0.5,
+        "max": 2.0,
+        "currency": "USD"
+      },
+      "category": "Productivity",
+      "lastUpdated": "2025-11-14T19:32:27.358336Z"
+    },
+    {
+      "id": "2838ddc2-39ec-44ef-b422-3d1093980320",
+      "keyword": "learning app",
+      "searchPopularity": 90,
+      "competitionLevel": "very_high",
+      "suggestedBidRange": {
+        "min": 0.5,
+        "max": 2.0,
+        "currency": "USD"
+      },
+      "category": "Education",
+      "lastUpdated": "2025-11-14T19:32:29.359525Z"
+    },
+    {
+      "id": "525a0d9f-e7e4-44ef-969f-30e5020f0cac",
+      "keyword": "streaming app",
+      "searchPopularity": 90,
+      "competitionLevel": "very_high",
+      "suggestedBidRange": {
+        "min": 0.5,
+        "max": 2.0,
+        "currency": "USD"
+      },
+      "category": "Entertainment",
+      "lastUpdated": "2025-11-14T19:32:31.360545Z"
+    },
+    {
+      "id": "14c62fad-1ae8-4f56-966c-1f82407518ff",
+      "keyword": "budget tracker",
+      "searchPopularity": 90,
+      "competitionLevel": "very_high",
+      "suggestedBidRange": {
+        "min": 0.5,
+        "max": 2.0,
+        "currency": "USD"
+      },
+      "category": "Finance",
+      "lastUpdated": "2025-11-14T19:32:33.361557Z"
+    },
+    {
+      "id": "6477693a-35c0-4f68-8177-a9f08444a38b",
+      "keyword": "fitness tracker",
+      "searchPopularity": 90,
+      "competitionLevel": "very_high",
+      "suggestedBidRange": {
+        "min": 0.5,
+        "max": 2.0,
+        "currency": "USD"
+      },
+      "category": "Health Fitness",
+      "lastUpdated": "2025-11-14T19:32:35.362655Z"
+    },
+    {
+      "id": "402e948d-a56a-4a18-bbaa-9eeae887441b",
+      "keyword": "recipe app",
+      "searchPopularity": 90,
+      "competitionLevel": "very_high",
+      "suggestedBidRange": {
+        "min": 0.5,
+        "max": 2.0,
+        "currency": "USD"
+      },
+      "category": "Lifestyle",
+      "lastUpdated": "2025-11-14T19:32:37.363864Z"
+    },
+    {
+      "id": "ee3d0c93-5eeb-455e-ba89-8872bdea78ed",
+      "keyword": "messaging app",
+      "searchPopularity": 90,
+      "competitionLevel": "very_high",
+      "suggestedBidRange": {
+        "min": 0.5,
+        "max": 2.0,
+        "currency": "USD"
+      },
+      "category": "Social Networking",
+      "lastUpdated": "2025-11-14T19:32:39.364908Z"
+    },
+    {
+      "id": "1ce042a4-0842-46dd-b783-e227949a975e",
+      "keyword": "file manager",
+      "searchPopularity": 90,
+      "competitionLevel": "very_high",
+      "suggestedBidRange": {
+        "min": 0.5,
+        "max": 2.0,
+        "currency": "USD"
+      },
+      "category": "Utilities",
+      "lastUpdated": "2025-11-14T19:32:41.366015Z"
+    },
+    {
+      "id": "0c0b3102-40d3-4a11-82ce-5061909c9e59",
+      "keyword": "action game",
+      "searchPopularity": 85,
+      "competitionLevel": "high",
+      "suggestedBidRange": {
+        "min": 0.6,
+        "max": 2.5,
+        "currency": "USD"
+      },
+      "category": "Games",
+      "lastUpdated": "2025-11-14T19:32:23.356223Z"
+    },
+    {
+      "id": "b5ece7e4-1809-4c59-bdff-6a33c5a20cd3",
+      "keyword": "team collaboration",
+      "searchPopularity": 85,
+      "competitionLevel": "high",
+      "suggestedBidRange": {
+        "min": 0.6,
+        "max": 2.5,
+        "currency": "USD"
+      },
+      "category": "Business",
+      "lastUpdated": "2025-11-14T19:32:25.357237Z"
+    },
+    {
+      "id": "766a7e92-6ca9-44b2-ada8-d830c67f46ba",
+      "keyword": "todo list",
+      "searchPopularity": 85,
+      "competitionLevel": "high",
+      "suggestedBidRange": {
+        "min": 0.6,
+        "max": 2.5,
+        "currency": "USD"
+      },
+      "category": "Productivity",
+      "lastUpdated": "2025-11-14T19:32:27.358351Z"
+    },
+    {
+      "id": "d1993a55-c5b8-4a29-841e-e443603033c5",
+      "keyword": "study tools",
+      "searchPopularity": 85,
+      "competitionLevel": "high",
+      "suggestedBidRange": {
+        "min": 0.6,
+        "max": 2.5,
+        "currency": "USD"
+      },
+      "category": "Education",
+      "lastUpdated": "2025-11-14T19:32:29.359537Z"
+    },
+    {
+      "id": "b0e3fd58-7ec9-49c1-9f6c-94c04c21bd05",
+      "keyword": "video player",
+      "searchPopularity": 85,
+      "competitionLevel": "high",
+      "suggestedBidRange": {
+        "min": 0.6,
+        "max": 2.5,
+        "currency": "USD"
+      },
+      "category": "Entertainment",
+      "lastUpdated": "2025-11-14T19:32:31.360556Z"
+    },
+    {
+      "id": "6a2a9c23-68c7-437f-a614-ef98c87a8426",
+      "keyword": "expense manager",
+      "searchPopularity": 85,
+      "competitionLevel": "high",
+      "suggestedBidRange": {
+        "min": 0.6,
+        "max": 2.5,
+        "currency": "USD"
+      },
+      "category": "Finance",
+      "lastUpdated": "2025-11-14T19:32:33.361567Z"
+    },
+    {
+      "id": "f075ee5e-ac1d-4ff6-a98d-cb5d9a249c35",
+      "keyword": "workout app",
+      "searchPopularity": 85,
+      "competitionLevel": "high",
+      "suggestedBidRange": {
+        "min": 0.6,
+        "max": 2.5,
+        "currency": "USD"
+      },
+      "category": "Health Fitness",
+      "lastUpdated": "2025-11-14T19:32:35.362669Z"
+    },
+    {
+      "id": "6938ac40-7916-4a36-9e34-4f6421b86cb6",
+      "keyword": "home design",
+      "searchPopularity": 85,
+      "competitionLevel": "high",
+      "suggestedBidRange": {
+        "min": 0.6,
+        "max": 2.5,
+        "currency": "USD"
+      },
+      "category": "Lifestyle",
+      "lastUpdated": "2025-11-14T19:32:37.363875Z"
+    },
+    {
+      "id": "cd81ba2d-a27a-4604-ad0a-16549002c6bc",
+      "keyword": "social media",
+      "searchPopularity": 85,
+      "competitionLevel": "high",
+      "suggestedBidRange": {
+        "min": 0.6,
+        "max": 2.5,
+        "currency": "USD"
+      },
+      "category": "Social Networking",
+      "lastUpdated": "2025-11-14T19:32:39.364920Z"
+    },
+    {
+      "id": "a53ebbfd-eefd-4056-ae18-5ea74d656862",
+      "keyword": "calculator",
+      "searchPopularity": 85,
+      "competitionLevel": "high",
+      "suggestedBidRange": {
+        "min": 0.6,
+        "max": 2.5,
+        "currency": "USD"
+      },
+      "category": "Utilities",
+      "lastUpdated": "2025-11-14T19:32:41.366027Z"
+    },
+    {
+      "id": "e1bf3e80-c27a-4dea-ae53-5f62d82698ae",
+      "keyword": "strategy game",
+      "searchPopularity": 80,
+      "competitionLevel": "medium",
+      "suggestedBidRange": {
+        "min": 0.7,
+        "max": 3.0,
+        "currency": "USD"
+      },
+      "category": "Games",
+      "lastUpdated": "2025-11-14T19:32:23.356226Z"
+    },
+    {
+      "id": "57c3bf97-541a-4e7b-9eb3-4fc240d71c54",
+      "keyword": "business analytics",
+      "searchPopularity": 80,
+      "competitionLevel": "medium",
+      "suggestedBidRange": {
+        "min": 0.7,
+        "max": 3.0,
+        "currency": "USD"
+      },
+      "category": "Business",
+      "lastUpdated": "2025-11-14T19:32:25.357242Z"
+    },
+    {
+      "id": "f1efe2a7-e0c1-48e5-8ae1-cd3bd118a8d2",
+      "keyword": "note taking",
+      "searchPopularity": 80,
+      "competitionLevel": "medium",
+      "suggestedBidRange": {
+        "min": 0.7,
+        "max": 3.0,
+        "currency": "USD"
+      },
+      "category": "Productivity",
+      "lastUpdated": "2025-11-14T19:32:27.358356Z"
+    },
+    {
+      "id": "71300218-358e-4679-b57d-00c80b2d096f",
+      "keyword": "language learning",
+      "searchPopularity": 80,
+      "competitionLevel": "medium",
+      "suggestedBidRange": {
+        "min": 0.7,
+        "max": 3.0,
+        "currency": "USD"
+      },
+      "category": "Education",
+      "lastUpdated": "2025-11-14T19:32:29.359542Z"
+    },
+    {
+      "id": "40fa9e97-afa4-40b9-b048-2e0a634c821a",
+      "keyword": "music app",
+      "searchPopularity": 80,
+      "competitionLevel": "medium",
+      "suggestedBidRange": {
+        "min": 0.7,
+        "max": 3.0,
+        "currency": "USD"
+      },
+      "category": "Entertainment",
+      "lastUpdated": "2025-11-14T19:32:31.360558Z"
+    },
+    {
+      "id": "3e9bd0b5-890a-4c6f-bb9d-751f100e6df5",
+      "keyword": "investment app",
+      "searchPopularity": 80,
+      "competitionLevel": "medium",
+      "suggestedBidRange": {
+        "min": 0.7,
+        "max": 3.0,
+        "currency": "USD"
+      },
+      "category": "Finance",
+      "lastUpdated": "2025-11-14T19:32:33.361569Z"
+    },
+    {
+      "id": "9b71efaf-ae16-4a5b-8193-1c8c9f250b32",
+      "keyword": "calorie counter",
+      "searchPopularity": 80,
+      "competitionLevel": "medium",
+      "suggestedBidRange": {
+        "min": 0.7,
+        "max": 3.0,
+        "currency": "USD"
+      },
+      "category": "Health Fitness",
+      "lastUpdated": "2025-11-14T19:32:35.362674Z"
+    },
+    {
+      "id": "909f7214-0a73-44b4-ab06-8603674ad3bd",
+      "keyword": "fashion app",
+      "searchPopularity": 80,
+      "competitionLevel": "medium",
+      "suggestedBidRange": {
+        "min": 0.7,
+        "max": 3.0,
+        "currency": "USD"
+      },
+      "category": "Lifestyle",
+      "lastUpdated": "2025-11-14T19:32:37.363878Z"
+    },
+    {
+      "id": "a38f2504-137e-448e-8f34-226134bb995d",
+      "keyword": "video chat",
+      "searchPopularity": 80,
+      "competitionLevel": "medium",
+      "suggestedBidRange": {
+        "min": 0.7,
+        "max": 3.0,
+        "currency": "USD"
+      },
+      "category": "Social Networking",
+      "lastUpdated": "2025-11-14T19:32:39.364924Z"
+    },
+    {
+      "id": "3881616f-cf1b-4a43-97fe-abb090447dfe",
+      "keyword": "scanner app",
+      "searchPopularity": 80,
+      "competitionLevel": "medium",
+      "suggestedBidRange": {
+        "min": 0.7,
+        "max": 3.0,
+        "currency": "USD"
+      },
+      "category": "Utilities",
+      "lastUpdated": "2025-11-14T19:32:41.366031Z"
+    },
+    {
+      "id": "d2ed60b9-0477-4d62-bf15-8fe7a5862083",
+      "keyword": "casual game",
+      "searchPopularity": 75,
+      "competitionLevel": "low",
+      "suggestedBidRange": {
+        "min": 0.8,
+        "max": 3.5,
+        "currency": "USD"
+      },
+      "category": "Games",
+      "lastUpdated": "2025-11-14T19:32:23.356228Z"
+    },
+    {
+      "id": "d2f7668f-606b-446f-b346-e7415b8e4427",
+      "keyword": "crm software",
+      "searchPopularity": 75,
+      "competitionLevel": "low",
+      "suggestedBidRange": {
+        "min": 0.8,
+        "max": 3.5,
+        "currency": "USD"
+      },
+      "category": "Business",
+      "lastUpdated": "2025-11-14T19:32:25.357245Z"
+    },
+    {
+      "id": "7a435294-82f5-4d46-ba96-4e952c3cc211",
+      "keyword": "calendar app",
+      "searchPopularity": 75,
+      "competitionLevel": "low",
+      "suggestedBidRange": {
+        "min": 0.8,
+        "max": 3.5,
+        "currency": "USD"
+      },
+      "category": "Productivity",
+      "lastUpdated": "2025-11-14T19:32:27.358359Z"
+    },
+    {
+      "id": "0fcb1489-a98d-43b2-b8e2-45f661ee97e3",
+      "keyword": "math tutor",
+      "searchPopularity": 75,
+      "competitionLevel": "low",
+      "suggestedBidRange": {
+        "min": 0.8,
+        "max": 3.5,
+        "currency": "USD"
+      },
+      "category": "Education",
+      "lastUpdated": "2025-11-14T19:32:29.359546Z"
+    },
+    {
+      "id": "377ea407-9d52-4a8b-b022-58a7de1f19ac",
+      "keyword": "podcast player",
+      "searchPopularity": 75,
+      "competitionLevel": "low",
+      "suggestedBidRange": {
+        "min": 0.8,
+        "max": 3.5,
+        "currency": "USD"
+      },
+      "category": "Entertainment",
+      "lastUpdated": "2025-11-14T19:32:31.360559Z"
+    },
+    {
+      "id": "0db5bbb0-454a-43fe-b5c4-fa7a3e2462a0",
+      "keyword": "banking app",
+      "searchPopularity": 75,
+      "competitionLevel": "low",
+      "suggestedBidRange": {
+        "min": 0.8,
+        "max": 3.5,
+        "currency": "USD"
+      },
+      "category": "Finance",
+      "lastUpdated": "2025-11-14T19:32:33.361572Z"
+    },
+    {
+      "id": "8c5f0abd-d3f4-485a-9ee6-9c20bbecbe68",
+      "keyword": "meditation app",
+      "searchPopularity": 75,
+      "competitionLevel": "low",
+      "suggestedBidRange": {
+        "min": 0.8,
+        "max": 3.5,
+        "currency": "USD"
+      },
+      "category": "Health Fitness",
+      "lastUpdated": "2025-11-14T19:32:35.362679Z"
+    },
+    {
+      "id": "ef943ab1-9731-4c29-93f0-05c6ae9973d3",
+      "keyword": "travel planner",
+      "searchPopularity": 75,
+      "competitionLevel": "low",
+      "suggestedBidRange": {
+        "min": 0.8,
+        "max": 3.5,
+        "currency": "USD"
+      },
+      "category": "Lifestyle",
+      "lastUpdated": "2025-11-14T19:32:37.363881Z"
+    },
+    {
+      "id": "2d503033-d736-471c-baf5-2b7058e2a7c1",
+      "keyword": "community app",
+      "searchPopularity": 75,
+      "competitionLevel": "low",
+      "suggestedBidRange": {
+        "min": 0.8,
+        "max": 3.5,
+        "currency": "USD"
+      },
+      "category": "Social Networking",
+      "lastUpdated": "2025-11-14T19:32:39.364928Z"
+    },
+    {
+      "id": "4bf81013-e795-4250-a1a6-f34863e64791",
+      "keyword": "weather app",
+      "searchPopularity": 75,
+      "competitionLevel": "low",
+      "suggestedBidRange": {
+        "min": 0.8,
+        "max": 3.5,
+        "currency": "USD"
+      },
+      "category": "Utilities",
+      "lastUpdated": "2025-11-14T19:32:41.366034Z"
+    },
+    {
+      "id": "e3199767-27fd-44d8-bd28-61e6d4999e59",
+      "keyword": "multiplayer game",
+      "searchPopularity": 70,
+      "competitionLevel": "low",
+      "suggestedBidRange": {
+        "min": 0.9,
+        "max": 4.0,
+        "currency": "USD"
+      },
+      "category": "Games",
+      "lastUpdated": "2025-11-14T19:32:23.356230Z"
+    },
+    {
+      "id": "e4256f77-cce3-4dbc-b153-fef03c663646",
+      "keyword": "invoice app",
+      "searchPopularity": 70,
+      "competitionLevel": "low",
+      "suggestedBidRange": {
+        "min": 0.9,
+        "max": 4.0,
+        "currency": "USD"
+      },
+      "category": "Business",
+      "lastUpdated": "2025-11-14T19:32:25.357248Z"
+    },
+    {
+      "id": "6a76c990-a01d-4384-b9be-7019ac76463d",
+      "keyword": "time tracker",
+      "searchPopularity": 70,
+      "competitionLevel": "low",
+      "suggestedBidRange": {
+        "min": 0.9,
+        "max": 4.0,
+        "currency": "USD"
+      },
+      "category": "Productivity",
+      "lastUpdated": "2025-11-14T19:32:27.358363Z"
+    },
+    {
+      "id": "806e90b9-7d89-4b02-be13-182d1eb4e90c",
+      "keyword": "flashcards",
+      "searchPopularity": 70,
+      "competitionLevel": "low",
+      "suggestedBidRange": {
+        "min": 0.9,
+        "max": 4.0,
+        "currency": "USD"
+      },
+      "category": "Education",
+      "lastUpdated": "2025-11-14T19:32:29.359549Z"
+    },
+    {
+      "id": "d200255f-d3f4-44f6-bb86-a7665d36eadd",
+      "keyword": "radio app",
+      "searchPopularity": 70,
+      "competitionLevel": "low",
+      "suggestedBidRange": {
+        "min": 0.9,
+        "max": 4.0,
+        "currency": "USD"
+      },
+      "category": "Entertainment",
+      "lastUpdated": "2025-11-14T19:32:31.360561Z"
+    },
+    {
+      "id": "d5215793-c8a4-494a-8ea5-6745ce48aaf0",
+      "keyword": "crypto wallet",
+      "searchPopularity": 70,
+      "competitionLevel": "low",
+      "suggestedBidRange": {
+        "min": 0.9,
+        "max": 4.0,
+        "currency": "USD"
+      },
+      "category": "Finance",
+      "lastUpdated": "2025-11-14T19:32:33.361574Z"
+    },
+    {
+      "id": "b8cc0bf6-a9ba-441f-8431-2df16c673a69",
+      "keyword": "sleep tracker",
+      "searchPopularity": 70,
+      "competitionLevel": "low",
+      "suggestedBidRange": {
+        "min": 0.9,
+        "max": 4.0,
+        "currency": "USD"
+      },
+      "category": "Health Fitness",
+      "lastUpdated": "2025-11-14T19:32:35.362682Z"
+    },
+    {
+      "id": "883b0d7e-eeaf-4b85-8df0-9146929c350c",
+      "keyword": "dating app",
+      "searchPopularity": 70,
+      "competitionLevel": "low",
+      "suggestedBidRange": {
+        "min": 0.9,
+        "max": 4.0,
+        "currency": "USD"
+      },
+      "category": "Lifestyle",
+      "lastUpdated": "2025-11-14T19:32:37.363883Z"
+    },
+    {
+      "id": "4ce7b91d-ba9e-4b94-9b29-39b88e96abf2",
+      "keyword": "forum app",
+      "searchPopularity": 70,
+      "competitionLevel": "low",
+      "suggestedBidRange": {
+        "min": 0.9,
+        "max": 4.0,
+        "currency": "USD"
+      },
+      "category": "Social Networking",
+      "lastUpdated": "2025-11-14T19:32:39.364931Z"
+    },
+    {
+      "id": "56f09fd1-85fb-44f9-846c-ad672bef0a7e",
+      "keyword": "vpn app",
+      "searchPopularity": 70,
+      "competitionLevel": "low",
+      "suggestedBidRange": {
+        "min": 0.9,
+        "max": 4.0,
+        "currency": "USD"
+      },
+      "category": "Utilities",
+      "lastUpdated": "2025-11-14T19:32:41.366037Z"
+    }
+  ],
+  "generatedAt": "2025-11-14T19:32:43.366603Z",
+  "source": "Apple Search Ads API"
+}

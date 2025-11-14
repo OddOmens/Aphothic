@@ -1,0 +1,71 @@
+{
+  "keywords": [
+    {
+      "id": "8cbf25ed-e2f5-42a2-982e-df1f956c2278",
+      "keyword": "task manager",
+      "searchPopularity": 90,
+      "competitionLevel": "very_high",
+      "suggestedBidRange": {
+        "min": 0.5,
+        "max": 2.0,
+        "currency": "USD"
+      },
+      "category": "Productivity",
+      "lastUpdated": "2025-11-14T19:32:27.358336Z"
+    },
+    {
+      "id": "766a7e92-6ca9-44b2-ada8-d830c67f46ba",
+      "keyword": "todo list",
+      "searchPopularity": 85,
+      "competitionLevel": "high",
+      "suggestedBidRange": {
+        "min": 0.6,
+        "max": 2.5,
+        "currency": "USD"
+      },
+      "category": "Productivity",
+      "lastUpdated": "2025-11-14T19:32:27.358351Z"
+    },
+    {
+      "id": "f1efe2a7-e0c1-48e5-8ae1-cd3bd118a8d2",
+      "keyword": "note taking",
+      "searchPopularity": 80,
+      "competitionLevel": "medium",
+      "suggestedBidRange": {
+        "min": 0.7,
+        "max": 3.0,
+        "currency": "USD"
+      },
+      "category": "Productivity",
+      "lastUpdated": "2025-11-14T19:32:27.358356Z"
+    },
+    {
+      "id": "7a435294-82f5-4d46-ba96-4e952c3cc211",
+      "keyword": "calendar app",
+      "searchPopularity": 75,
+      "competitionLevel": "low",
+      "suggestedBidRange": {
+        "min": 0.8,
+        "max": 3.5,
+        "currency": "USD"
+      },
+      "category": "Productivity",
+      "lastUpdated": "2025-11-14T19:32:27.358359Z"
+    },
+    {
+      "id": "6a76c990-a01d-4384-b9be-7019ac76463d",
+      "keyword": "time tracker",
+      "searchPopularity": 70,
+      "competitionLevel": "low",
+      "suggestedBidRange": {
+        "min": 0.9,
+        "max": 4.0,
+        "currency": "USD"
+      },
+      "category": "Productivity",
+      "lastUpdated": "2025-11-14T19:32:27.358363Z"
+    }
+  ],
+  "generatedAt": "2025-11-14T19:32:27.358417Z",
+  "source": "Apple Search Ads API"
+}

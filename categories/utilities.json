@@ -1,0 +1,71 @@
+{
+  "keywords": [
+    {
+      "id": "1ce042a4-0842-46dd-b783-e227949a975e",
+      "keyword": "file manager",
+      "searchPopularity": 90,
+      "competitionLevel": "very_high",
+      "suggestedBidRange": {
+        "min": 0.5,
+        "max": 2.0,
+        "currency": "USD"
+      },
+      "category": "Utilities",
+      "lastUpdated": "2025-11-14T19:32:41.366015Z"
+    },
+    {
+      "id": "a53ebbfd-eefd-4056-ae18-5ea74d656862",
+      "keyword": "calculator",
+      "searchPopularity": 85,
+      "competitionLevel": "high",
+      "suggestedBidRange": {
+        "min": 0.6,
+        "max": 2.5,
+        "currency": "USD"
+      },
+      "category": "Utilities",
+      "lastUpdated": "2025-11-14T19:32:41.366027Z"
+    },
+    {
+      "id": "3881616f-cf1b-4a43-97fe-abb090447dfe",
+      "keyword": "scanner app",
+      "searchPopularity": 80,
+      "competitionLevel": "medium",
+      "suggestedBidRange": {
+        "min": 0.7,
+        "max": 3.0,
+        "currency": "USD"
+      },
+      "category": "Utilities",
+      "lastUpdated": "2025-11-14T19:32:41.366031Z"
+    },
+    {
+      "id": "4bf81013-e795-4250-a1a6-f34863e64791",
+      "keyword": "weather app",
+      "searchPopularity": 75,
+      "competitionLevel": "low",
+      "suggestedBidRange": {
+        "min": 0.8,
+        "max": 3.5,
+        "currency": "USD"
+      },
+      "category": "Utilities",
+      "lastUpdated": "2025-11-14T19:32:41.366034Z"
+    },
+    {
+      "id": "56f09fd1-85fb-44f9-846c-ad672bef0a7e",
+      "keyword": "vpn app",
+      "searchPopularity": 70,
+      "competitionLevel": "low",
+      "suggestedBidRange": {
+        "min": 0.9,
+        "max": 4.0,
+        "currency": "USD"
+      },
+      "category": "Utilities",
+      "lastUpdated": "2025-11-14T19:32:41.366037Z"
+    }
+  ],
+  "generatedAt": "2025-11-14T19:32:41.366083Z",
+  "source": "Apple Search Ads API"
+}

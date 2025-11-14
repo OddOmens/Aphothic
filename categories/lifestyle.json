@@ -1,0 +1,71 @@
+{
+  "keywords": [
+    {
+      "id": "402e948d-a56a-4a18-bbaa-9eeae887441b",
+      "keyword": "recipe app",
+      "searchPopularity": 90,
+      "competitionLevel": "very_high",
+      "suggestedBidRange": {
+        "min": 0.5,
+        "max": 2.0,
+        "currency": "USD"
+      },
+      "category": "Lifestyle",
+      "lastUpdated": "2025-11-14T19:32:37.363864Z"
+    },
+    {
+      "id": "6938ac40-7916-4a36-9e34-4f6421b86cb6",
+      "keyword": "home design",
+      "searchPopularity": 85,
+      "competitionLevel": "high",
+      "suggestedBidRange": {
+        "min": 0.6,
+        "max": 2.5,
+        "currency": "USD"
+      },
+      "category": "Lifestyle",
+      "lastUpdated": "2025-11-14T19:32:37.363875Z"
+    },
+    {
+      "id": "909f7214-0a73-44b4-ab06-8603674ad3bd",
+      "keyword": "fashion app",
+      "searchPopularity": 80,
+      "competitionLevel": "medium",
+      "suggestedBidRange": {
+        "min": 0.7,
+        "max": 3.0,
+        "currency": "USD"
+      },
+      "category": "Lifestyle",
+      "lastUpdated": "2025-11-14T19:32:37.363878Z"
+    },
+    {
+      "id": "ef943ab1-9731-4c29-93f0-05c6ae9973d3",
+      "keyword": "travel planner",
+      "searchPopularity": 75,
+      "competitionLevel": "low",
+      "suggestedBidRange": {
+        "min": 0.8,
+        "max": 3.5,
+        "currency": "USD"
+      },
+      "category": "Lifestyle",
+      "lastUpdated": "2025-11-14T19:32:37.363881Z"
+    },
+    {
+      "id": "883b0d7e-eeaf-4b85-8df0-9146929c350c",
+      "keyword": "dating app",
+      "searchPopularity": 70,
+      "competitionLevel": "low",
+      "suggestedBidRange": {
+        "min": 0.9,
+        "max": 4.0,
+        "currency": "USD"
+      },
+      "category": "Lifestyle",
+      "lastUpdated": "2025-11-14T19:32:37.363883Z"
+    }
+  ],
+  "generatedAt": "2025-11-14T19:32:37.363933Z",
+  "source": "Apple Search Ads API"
+}

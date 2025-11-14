@@ -1,0 +1,71 @@
+{
+  "keywords": [
+    {
+      "id": "ad53c6b6-d934-4745-9718-9b4e5e46432d",
+      "keyword": "project management",
+      "searchPopularity": 90,
+      "competitionLevel": "very_high",
+      "suggestedBidRange": {
+        "min": 0.5,
+        "max": 2.0,
+        "currency": "USD"
+      },
+      "category": "Business",
+      "lastUpdated": "2025-11-14T19:32:25.357223Z"
+    },
+    {
+      "id": "b5ece7e4-1809-4c59-bdff-6a33c5a20cd3",
+      "keyword": "team collaboration",
+      "searchPopularity": 85,
+      "competitionLevel": "high",
+      "suggestedBidRange": {
+        "min": 0.6,
+        "max": 2.5,
+        "currency": "USD"
+      },
+      "category": "Business",
+      "lastUpdated": "2025-11-14T19:32:25.357237Z"
+    },
+    {
+      "id": "57c3bf97-541a-4e7b-9eb3-4fc240d71c54",
+      "keyword": "business analytics",
+      "searchPopularity": 80,
+      "competitionLevel": "medium",
+      "suggestedBidRange": {
+        "min": 0.7,
+        "max": 3.0,
+        "currency": "USD"
+      },
+      "category": "Business",
+      "lastUpdated": "2025-11-14T19:32:25.357242Z"
+    },
+    {
+      "id": "d2f7668f-606b-446f-b346-e7415b8e4427",
+      "keyword": "crm software",
+      "searchPopularity": 75,
+      "competitionLevel": "low",
+      "suggestedBidRange": {
+        "min": 0.8,
+        "max": 3.5,
+        "currency": "USD"
+      },
+      "category": "Business",
+      "lastUpdated": "2025-11-14T19:32:25.357245Z"
+    },
+    {
+      "id": "e4256f77-cce3-4dbc-b153-fef03c663646",
+      "keyword": "invoice app",
+      "searchPopularity": 70,
+      "competitionLevel": "low",
+      "suggestedBidRange": {
+        "min": 0.9,
+        "max": 4.0,
+        "currency": "USD"
+      },
+      "category": "Business",
+      "lastUpdated": "2025-11-14T19:32:25.357248Z"
+    }
+  ],
+  "generatedAt": "2025-11-14T19:32:25.357299Z",
+  "source": "Apple Search Ads API"
+}

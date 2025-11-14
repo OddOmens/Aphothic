@@ -1,0 +1,71 @@
+{
+  "keywords": [
+    {
+      "id": "14c62fad-1ae8-4f56-966c-1f82407518ff",
+      "keyword": "budget tracker",
+      "searchPopularity": 90,
+      "competitionLevel": "very_high",
+      "suggestedBidRange": {
+        "min": 0.5,
+        "max": 2.0,
+        "currency": "USD"
+      },
+      "category": "Finance",
+      "lastUpdated": "2025-11-14T19:32:33.361557Z"
+    },
+    {
+      "id": "6a2a9c23-68c7-437f-a614-ef98c87a8426",
+      "keyword": "expense manager",
+      "searchPopularity": 85,
+      "competitionLevel": "high",
+      "suggestedBidRange": {
+        "min": 0.6,
+        "max": 2.5,
+        "currency": "USD"
+      },
+      "category": "Finance",
+      "lastUpdated": "2025-11-14T19:32:33.361567Z"
+    },
+    {
+      "id": "3e9bd0b5-890a-4c6f-bb9d-751f100e6df5",
+      "keyword": "investment app",
+      "searchPopularity": 80,
+      "competitionLevel": "medium",
+      "suggestedBidRange": {
+        "min": 0.7,
+        "max": 3.0,
+        "currency": "USD"
+      },
+      "category": "Finance",
+      "lastUpdated": "2025-11-14T19:32:33.361569Z"
+    },
+    {
+      "id": "0db5bbb0-454a-43fe-b5c4-fa7a3e2462a0",
+      "keyword": "banking app",
+      "searchPopularity": 75,
+      "competitionLevel": "low",
+      "suggestedBidRange": {
+        "min": 0.8,
+        "max": 3.5,
+        "currency": "USD"
+      },
+      "category": "Finance",
+      "lastUpdated": "2025-11-14T19:32:33.361572Z"
+    },
+    {
+      "id": "d5215793-c8a4-494a-8ea5-6745ce48aaf0",
+      "keyword": "crypto wallet",
+      "searchPopularity": 70,
+      "competitionLevel": "low",
+      "suggestedBidRange": {
+        "min": 0.9,
+        "max": 4.0,
+        "currency": "USD"
+      },
+      "category": "Finance",
+      "lastUpdated": "2025-11-14T19:32:33.361574Z"
+    }
+  ],
+  "generatedAt": "2025-11-14T19:32:33.361617Z",
+  "source": "Apple Search Ads API"
+}

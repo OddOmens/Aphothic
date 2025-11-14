@@ -1,0 +1,71 @@
+{
+  "keywords": [
+    {
+      "id": "525a0d9f-e7e4-44ef-969f-30e5020f0cac",
+      "keyword": "streaming app",
+      "searchPopularity": 90,
+      "competitionLevel": "very_high",
+      "suggestedBidRange": {
+        "min": 0.5,
+        "max": 2.0,
+        "currency": "USD"
+      },
+      "category": "Entertainment",
+      "lastUpdated": "2025-11-14T19:32:31.360545Z"
+    },
+    {
+      "id": "b0e3fd58-7ec9-49c1-9f6c-94c04c21bd05",
+      "keyword": "video player",
+      "searchPopularity": 85,
+      "competitionLevel": "high",
+      "suggestedBidRange": {
+        "min": 0.6,
+        "max": 2.5,
+        "currency": "USD"
+      },
+      "category": "Entertainment",
+      "lastUpdated": "2025-11-14T19:32:31.360556Z"
+    },
+    {
+      "id": "40fa9e97-afa4-40b9-b048-2e0a634c821a",
+      "keyword": "music app",
+      "searchPopularity": 80,
+      "competitionLevel": "medium",
+      "suggestedBidRange": {
+        "min": 0.7,
+        "max": 3.0,
+        "currency": "USD"
+      },
+      "category": "Entertainment",
+      "lastUpdated": "2025-11-14T19:32:31.360558Z"
+    },
+    {
+      "id": "377ea407-9d52-4a8b-b022-58a7de1f19ac",
+      "keyword": "podcast player",
+      "searchPopularity": 75,
+      "competitionLevel": "low",
+      "suggestedBidRange": {
+        "min": 0.8,
+        "max": 3.5,
+        "currency": "USD"
+      },
+      "category": "Entertainment",
+      "lastUpdated": "2025-11-14T19:32:31.360559Z"
+    },
+    {
+      "id": "d200255f-d3f4-44f6-bb86-a7665d36eadd",
+      "keyword": "radio app",
+      "searchPopularity": 70,
+      "competitionLevel": "low",
+      "suggestedBidRange": {
+        "min": 0.9,
+        "max": 4.0,
+        "currency": "USD"
+      },
+      "category": "Entertainment",
+      "lastUpdated": "2025-11-14T19:32:31.360561Z"
+    }
+  ],
+  "generatedAt": "2025-11-14T19:32:31.360603Z",
+  "source": "Apple Search Ads API"
+}

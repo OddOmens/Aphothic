@@ -1,0 +1,71 @@
+{
+  "keywords": [
+    {
+      "id": "2838ddc2-39ec-44ef-b422-3d1093980320",
+      "keyword": "learning app",
+      "searchPopularity": 90,
+      "competitionLevel": "very_high",
+      "suggestedBidRange": {
+        "min": 0.5,
+        "max": 2.0,
+        "currency": "USD"
+      },
+      "category": "Education",
+      "lastUpdated": "2025-11-14T19:32:29.359525Z"
+    },
+    {
+      "id": "d1993a55-c5b8-4a29-841e-e443603033c5",
+      "keyword": "study tools",
+      "searchPopularity": 85,
+      "competitionLevel": "high",
+      "suggestedBidRange": {
+        "min": 0.6,
+        "max": 2.5,
+        "currency": "USD"
+      },
+      "category": "Education",
+      "lastUpdated": "2025-11-14T19:32:29.359537Z"
+    },
+    {
+      "id": "71300218-358e-4679-b57d-00c80b2d096f",
+      "keyword": "language learning",
+      "searchPopularity": 80,
+      "competitionLevel": "medium",
+      "suggestedBidRange": {
+        "min": 0.7,
+        "max": 3.0,
+        "currency": "USD"
+      },
+      "category": "Education",
+      "lastUpdated": "2025-11-14T19:32:29.359542Z"
+    },
+    {
+      "id": "0fcb1489-a98d-43b2-b8e2-45f661ee97e3",
+      "keyword": "math tutor",
+      "searchPopularity": 75,
+      "competitionLevel": "low",
+      "suggestedBidRange": {
+        "min": 0.8,
+        "max": 3.5,
+        "currency": "USD"
+      },
+      "category": "Education",
+      "lastUpdated": "2025-11-14T19:32:29.359546Z"
+    },
+    {
+      "id": "806e90b9-7d89-4b02-be13-182d1eb4e90c",
+      "keyword": "flashcards",
+      "searchPopularity": 70,
+      "competitionLevel": "low",
+      "suggestedBidRange": {
+        "min": 0.9,
+        "max": 4.0,
+        "currency": "USD"
+      },
+      "category": "Education",
+      "lastUpdated": "2025-11-14T19:32:29.359549Z"
+    }
+  ],
+  "generatedAt": "2025-11-14T19:32:29.359601Z",
+  "source": "Apple Search Ads API"
+}

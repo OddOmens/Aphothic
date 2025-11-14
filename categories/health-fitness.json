@@ -1,0 +1,71 @@
+{
+  "keywords": [
+    {
+      "id": "6477693a-35c0-4f68-8177-a9f08444a38b",
+      "keyword": "fitness tracker",
+      "searchPopularity": 90,
+      "competitionLevel": "very_high",
+      "suggestedBidRange": {
+        "min": 0.5,
+        "max": 2.0,
+        "currency": "USD"
+      },
+      "category": "Health Fitness",
+      "lastUpdated": "2025-11-14T19:32:35.362655Z"
+    },
+    {
+      "id": "f075ee5e-ac1d-4ff6-a98d-cb5d9a249c35",
+      "keyword": "workout app",
+      "searchPopularity": 85,
+      "competitionLevel": "high",
+      "suggestedBidRange": {
+        "min": 0.6,
+        "max": 2.5,
+        "currency": "USD"
+      },
+      "category": "Health Fitness",
+      "lastUpdated": "2025-11-14T19:32:35.362669Z"
+    },
+    {
+      "id": "9b71efaf-ae16-4a5b-8193-1c8c9f250b32",
+      "keyword": "calorie counter",
+      "searchPopularity": 80,
+      "competitionLevel": "medium",
+      "suggestedBidRange": {
+        "min": 0.7,
+        "max": 3.0,
+        "currency": "USD"
+      },
+      "category": "Health Fitness",
+      "lastUpdated": "2025-11-14T19:32:35.362674Z"
+    },
+    {
+      "id": "8c5f0abd-d3f4-485a-9ee6-9c20bbecbe68",
+      "keyword": "meditation app",
+      "searchPopularity": 75,
+      "competitionLevel": "low",
+      "suggestedBidRange": {
+        "min": 0.8,
+        "max": 3.5,
+        "currency": "USD"
+      },
+      "category": "Health Fitness",
+      "lastUpdated": "2025-11-14T19:32:35.362679Z"
+    },
+    {
+      "id": "b8cc0bf6-a9ba-441f-8431-2df16c673a69",
+      "keyword": "sleep tracker",
+      "searchPopularity": 70,
+      "competitionLevel": "low",
+      "suggestedBidRange": {
+        "min": 0.9,
+        "max": 4.0,
+        "currency": "USD"
+      },
+      "category": "Health Fitness",
+      "lastUpdated": "2025-11-14T19:32:35.362682Z"
+    }
+  ],
+  "generatedAt": "2025-11-14T19:32:35.362766Z",
+  "source": "Apple Search Ads API"
+}

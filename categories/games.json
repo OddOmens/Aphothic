@@ -1,0 +1,71 @@
+{
+  "keywords": [
+    {
+      "id": "5623b20c-568b-4b28-949c-e3fa8df3a4f0",
+      "keyword": "puzzle game",
+      "searchPopularity": 90,
+      "competitionLevel": "very_high",
+      "suggestedBidRange": {
+        "min": 0.5,
+        "max": 2.0,
+        "currency": "USD"
+      },
+      "category": "Games",
+      "lastUpdated": "2025-11-14T19:32:23.356214Z"
+    },
+    {
+      "id": "0c0b3102-40d3-4a11-82ce-5061909c9e59",
+      "keyword": "action game",
+      "searchPopularity": 85,
+      "competitionLevel": "high",
+      "suggestedBidRange": {
+        "min": 0.6,
+        "max": 2.5,
+        "currency": "USD"
+      },
+      "category": "Games",
+      "lastUpdated": "2025-11-14T19:32:23.356223Z"
+    },
+    {
+      "id": "e1bf3e80-c27a-4dea-ae53-5f62d82698ae",
+      "keyword": "strategy game",
+      "searchPopularity": 80,
+      "competitionLevel": "medium",
+      "suggestedBidRange": {
+        "min": 0.7,
+        "max": 3.0,
+        "currency": "USD"
+      },
+      "category": "Games",
+      "lastUpdated": "2025-11-14T19:32:23.356226Z"
+    },
+    {
+      "id": "d2ed60b9-0477-4d62-bf15-8fe7a5862083",
+      "keyword": "casual game",
+      "searchPopularity": 75,
+      "competitionLevel": "low",
+      "suggestedBidRange": {
+        "min": 0.8,
+        "max": 3.5,
+        "currency": "USD"
+      },
+      "category": "Games",
+      "lastUpdated": "2025-11-14T19:32:23.356228Z"
+    },
+    {
+      "id": "e3199767-27fd-44d8-bd28-61e6d4999e59",
+      "keyword": "multiplayer game",
+      "searchPopularity": 70,
+      "competitionLevel": "low",
+      "suggestedBidRange": {
+        "min": 0.9,
+        "max": 4.0,
+        "currency": "USD"
+      },
+      "category": "Games",
+      "lastUpdated": "2025-11-14T19:32:23.356230Z"
+    }
+  ],
+  "generatedAt": "2025-11-14T19:32:23.356305Z",
+  "source": "Apple Search Ads API"
+}
