@@ -4,7 +4,7 @@
     "bannedApps": [
         {
             "appId": "284882215",
-            "banType": "marketingOnly",
+            "banType": "complete",
             "message": "Marketing disabled for Facebook"
         },
         {
